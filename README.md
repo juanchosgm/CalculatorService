@@ -38,3 +38,7 @@ En la venta auxiliar dirigase a la opción que dice Folder
 Seleccione la carpeta donde desea publicar la aplicación
 Oprima el botón "Publish"
 ```
+4. Tan pronto sea publicada la aplicación dirigase al IIS y convierta la carpeta en una aplicación
+5. Realice la misma operación del punto 3 con la aplicación llamada "Client"
+6. Tan pronto ésta se publique, ejecute el archivo con extensión .exe y así podrá utilizar todas las operaciones matemáticas
+7. Recuerde que la aplicación persiste la información hasta el momento en que se reinicie la máquina
