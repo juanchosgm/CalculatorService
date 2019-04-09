@@ -27,5 +27,14 @@ Para hacer el correcto despliegue de la aplicación se debe:
 
 1. Debido a que la aplicación cuenta con dos aplicaciones de publicación, lo primero que se debe cambiar es; en la clase Proxy colocar el valor de la dirección base donde será publicada la API
 ```bash
-Hola Mundo
+private readonly string baseAddress = "http://ip-de-publicacion/";
+```
+2. Al proyecto llamado Service, debe darle click derecho y en el menu contextual de visual studio, seleccione la opción de "Publicar" o "Publish".
+3. En la ventana de configuración de publicación siga ésta secuencia
+```bash
+Opción del sidenav -> Publish
+Oprima el botón -> Start
+En la venta auxiliar dirigase a la opción que dice Folder
+Seleccione la carpeta donde desea publicar la aplicación
+Oprima el botón "Publish"
 ```
