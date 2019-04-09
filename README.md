@@ -15,7 +15,7 @@ expuesto en la aplicación
 * Net Standar 2.0
 
 ## How to build application
-1. La capa de datos es la encargada de contener la información y persistirla en un almacenador de datos, con fines de optimización, ésta labor se llevó a cabo con una lista estática para realizar las pruebas de una forma más ágil. Sin embargo se hubiera poder haber hecho uso de un motor de datos SQLServer
+1. La capa de datos es la encargada de contener la información y persistirla en un almacenador de datos, con fines de optimización, ésta labor se llevó a cabo con una lista estática para realizar las pruebas de una forma más ágil. Sin embargo se hubiera podido usar un motor de datos SQLServer
 2. La capa de acceso a datos permite guardar la información de las operaciones y consultarlas en la capa de datos. En ésta capa se implementa un patrón de diseño llamado Repositorio y otro de Fábrica para realizar operaciones controladas a la capa de datos
 3. La capa de lógica de negocios implementa las validaciones de negocio ideales para realizar operaciones, de ésta manera asegura que la información que se traslade a la capa de acceso a datos reciba información confiable y 100% verídica
 4. La lógica de negocios es expuesta a través de un servicio web con el protocolo HTTP (REST) para ser consumida por cualquier tipo de aplicación cliente
@@ -24,4 +24,8 @@ expuesto en la aplicación
 
 ## How to deploy the application
 Para hacer el correcto despliegue de la aplicación se debe:
-1. 
+
+1. Debido a que la aplicación cuenta con dos aplicaciones de publicación, lo primero que se debe cambiar es; en la clase Proxy colocar el valor de la dirección base donde será publicada la API
+```bash
+Hola Mundo
+```
