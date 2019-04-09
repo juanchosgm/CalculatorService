@@ -22,6 +22,9 @@ expuesto en la aplicación
 5. La capa de contrato de servicio, expone aquellas funcionalidades que públicamente está visibles en el API, de tal manera que estandariza al servicio web y a la clase proxy que mapea los servicios
 6. La aplicación cliente es aquella encargada de consumir los servicios expuestos en el API y de capturar la información digitada por el usuario
 
+|Hola | Como estas? |
+|-----|-------------|
+
 ## How to deploy the application
 Para hacer el correcto despliegue de la aplicación se debe:
 
