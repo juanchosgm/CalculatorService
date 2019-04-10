@@ -22,8 +22,15 @@ expuesto en la aplicación
 5. La capa de contrato de servicio, expone aquellas funcionalidades que públicamente está visibles en el API, de tal manera que estandariza al servicio web y a la clase proxy que mapea los servicios
 6. La aplicación cliente es aquella encargada de consumir los servicios expuestos en el API y de capturar la información digitada por el usuario
 
-|Hola | Como estas? |
-|-----|-------------|
+|Proyecto | Tecnología |
+|---------|------------|
+|Entities|Net Standard 2.0|
+|DataAccessLayer|Net Framework 4.7|
+|BusinessLogicLayer|Net Framework 4.7|
+|ServiceContractLayer|Net Standard 2.0|
+|Services| Web Api 2.0 (Net Framework 4.7)|
+|CalculatorProxyService|Net Standard 2.0|
+|Client|Console Application (Net Framework 4.7)|
 
 ## How to deploy the application
 Para hacer el correcto despliegue de la aplicación se debe:
