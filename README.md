@@ -6,7 +6,7 @@ matemáticas como suma, resta, multiplicación, división y raiz cuadrada.
 Cada que se realiza una operación se guardará registro de la transacción para luego poderla consultar también mediante el servicio web
 expuesto en la aplicación
 
-## Requisitos
+## Requeriments
 
 * Visual Studio 2019
 * Net Framework 4.7
@@ -32,7 +32,7 @@ expuesto en la aplicación
 |CalculatorProxyService|Net Standard 2.0|
 |Client|Console Application (Net Framework 4.7)|
 
-## How to deploy the application
+## How to deploy the application and how to run the resulting application
 Para hacer el correcto despliegue de la aplicación se debe:
 
 1. Debido a que la aplicación cuenta con dos aplicaciones de publicación, lo primero que se debe cambiar es; en la clase Proxy colocar el valor de la dirección base donde será publicada la API
@@ -52,3 +52,7 @@ Oprima el botón "Publish"
 5. Realice la misma operación del punto 3 con la aplicación llamada "Client"
 6. Tan pronto ésta se publique, ejecute el archivo con extensión .exe y así podrá utilizar todas las operaciones matemáticas
 7. Recuerde que la aplicación persiste la información hasta el momento en que se reinicie la máquina
+
+### Notes:
+
+La aplicación cuenta con la documentación lógica de cada método a excepción del proyecto cliente y del proyecto de entidades
